@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: rgb(20, 20, 20);
+  font-family: sans-serif;
+}
+.head span {
+  color: blueviolet;
+}
+.head {
+  font-size: 3rem;
+  text-align: center;
+  color: cornsilk;
+}
+#out {
+  border-bottom: 1px solid white;
+}
+.new {
+  width: 5%;
+  border: 2px solid red;
+}
+i {
+  font-size: 2rem;
+}
+.inputf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#firstName {
+  height: 2rem;
+  outline: none;
+  padding: 1rem;
+  border: 0;
+  width: 20%;
+  border-radius: 2rem;
+}
+.addbutton {
+  height: 2rem;
+  width: 2rem;
+  outline: none;
+  border: none;
+  color: lime;
+  margin-left: 1rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  padding: 0;
+}
+.addbutton:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.item {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.item input {
+  height: 2rem;
+  outline: none;
+  /* background-color: ; */
+  color: #fff;
+  border: none;
+}
+.editBtn {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+#out {
+  color: blue;
+}
+.removeBtn {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+  background-color: rebeccapurple;
+  color: #fff;
+}
