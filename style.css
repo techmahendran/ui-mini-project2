@@ -77,7 +77,7 @@ i {
   cursor: pointer;
   margin: 1rem;
 }
-#out {
+#output {
   color: blue;
 }
 .removeBtn {
@@ -89,4 +89,13 @@ i {
   margin: 1rem;
   background-color: rebeccapurple;
   color: #fff;
+  margin-left: 14rem;
+}
+@media screen and (max-width: 524px) {
+  #output {
+    margin-left: 8rem;
+  }
+  .removeBtn {
+    margin-left: 7rem;
+  }
 }

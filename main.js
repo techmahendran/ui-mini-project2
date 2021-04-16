@@ -3,7 +3,7 @@ const container = document.querySelector('.container')
 const removeBtn = document.querySelector('.removeBtn')
 const addBtn = document.querySelector('.addbutton')
 
-let out = document.getElementById('out')
+let out = document.getElementById('output')
 
 addBtn.addEventListener('click', add)
 
