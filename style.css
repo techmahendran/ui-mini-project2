@@ -40,7 +40,7 @@ i {
   width: 2rem;
   outline: none;
   border: none;
-  color: lime;
+  color: green;
   margin-left: 1rem;
   border-radius: 0.7rem;
   cursor: pointer;
@@ -62,13 +62,6 @@ i {
   align-items: center;
   margin-top: 1rem;
 }
-.item input {
-  height: 2rem;
-  outline: none;
-  /* background-color: ; */
-  color: #fff;
-  border: none;
-}
 .editBtn {
   outline: none;
   border: none;
@@ -78,7 +71,7 @@ i {
   margin: 1rem;
 }
 #output {
-  color: blue;
+  color: rgb(0, 217, 255);
 }
 .removeBtn {
   outline: none;
@@ -91,11 +84,21 @@ i {
   color: #fff;
   margin-left: 14rem;
 }
-@media screen and (max-width: 524px) {
+.removeBtn:hover {
+  color: red;
+}
+@media screen and (max-width: 500px) {
+  #firstName {
+    width: 30%;
+  }
+  .addbutton {
+    width: 10%;
+  }
   #output {
     margin-left: 8rem;
   }
   .removeBtn {
-    margin-left: 7rem;
+    margin-left: 3rem;
+    padding: 0.8rem;
   }
 }
